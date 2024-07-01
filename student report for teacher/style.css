@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: mons;
+    src: url(/Montserrat-VariableFont_wght.ttf);
+}
+.student-report{
+    width: 100%;
+    height: 100%;
+    /* background-color:aqua; */
+    padding-top: 1vw;
+}
+
+.report-head{
+    width: 80%;
+    height: 8%;
+    background-color: blue;
+    margin-left: 9vw;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.report-head i{
+    font-size: 5vh;
+    margin-left: 15vw;
+    color: #fff;
+}
+
+.report-head h3{
+    font-size: 5vh;
+    font-weight: 600;
+    margin-left: 20vw;
+    color: #fff;
+}
+
+.student-info{
+    height: 30%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.student-info-in{
+    height: 70%;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1vw 2vw;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 0.1px solid gray;
+}
+
+.left-in{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left-in img{
+    width: 100%;
+    height: 60%;
+}
+
+.right-in{
+    width: 70%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.in-common{
+    width: 100%;
+    height: 33%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-common p{
+    font-size: 2vh;
+    font-weight: 300;
+}
+
+.in-common h5{
+    font-weight: 600;
+    font-size: 2vh;
+}
+
+.student-report-mid{
+    width: 100%;
+    height: 60%;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    height: 20vw;
+}
+
+.mid-common{
+    width: 25%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    border-radius: 12px;
+    /* height: fit-content; */
+}
+
+.mid-info{
+    height: 11%;
+    width: 100%;
+    background-color: rgb(237, 253, 207);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.info-common{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-right:1px solid gray; */
+}
+
+.mid-left-info,.mid-middle-info{
+    border-right: 1px solid gray;
+}
+.info-common p{
+    font-size: 2vh;
+}
+
+.info-first{
+    border-bottom: 1px solid gray;
+    border-radius: 12px 12px 0 0;
+}
+
+.mid-common{
+    border: 1px solid gray;
+}
+
+.info-last{
+    border-radius:0 0 12px 12px ;
+}
+
+.fail-class p{
+    color: red;
+}
+
+.mid-right{
+    /* background-color: #fff; */
+    width: fit-content;
+    /* height: fit-content; */
+    border: none;
+}
+
+.mid-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.student-mid-low{
+   width: 100%;
+   height: 25vw;
+   /* background-color: red; */
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.mid-low-common{
+    width: 23%;
+    height: 85%;
+    /* background-color: aqua; */
+    border-radius: 12px;
+    margin-left: .2vw;
+}
+
+.mid-low-left{
+    height: fit-content;
+    width: 25%;
+}
+
+
+.mid-low-left img{
+    width: 100%;
+    height: 95%;
+}
+
+.mid-low-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.inner-right{
+    width: 90%;
+    height: 90%;
+    /* background-color: cadetblue; */
+    border: 2px solid gray;
+}
+
+.quiz-test{
+    width: 100%;
+    height: 12%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .2vh;
+    border-bottom: 1px solid gray;
+}
+
+.quiz-test h6{
+    color: #219ebc;
+    font-weight: 700;
+}
+
+.quiz-test p{
+    font-size: 2vh;
+}
+
+.quiz-test strong{
+    color: #219ebc;
+    font-weight: 500;
+}
+
+.sem-performance{
+    width: 100%;
+    height: 25vw;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sem-performance-card{
+    width: 85%;
+    height: 90%;
+    background-color: #d9d9d9;
+    border-radius: 12px;
+}
+
+.card-top{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-top h5{
+    font-size: 3vh;
+    color: #219ebc;
+    font-weight: 400;
+}
+
+.card-mid{
+    width: 100%;
+    height: 80%;
+    /* background-color: aquamarine; */
+    border-radius: 0 0 12px 12px;
+    padding: 2vh;
+    display: flex;
+}
+
+.card-mid-left{
+    width: 70%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-mid-right{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    margin-left: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.card-left-in{
+    width: 100%;
+    height: 22%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-left-in strong{
+    color: #219ebc;
+    font-weight: 500;
+}
+
+.card-left-in p{
+    font-size: 2.5vh;
+}
+
+.card-mid-right img{
+    width: 90%;
+    height: 100%;
+}
+
+.report-container{
+    width: 100%;
+    height: 40vw;
+    /* background-color: red; */
+}
+
+.head-report{
+    width: 100%;
+    height: 8%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    padding-left: 7vw;
+    font-size: 4vh;
+}
+
+.remark{
+    width: 100%;
+    height: 10%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+
+.remark input{
+    width: 85%;
+    height: 70%;
+    margin-left: 7vw;
+    text-align: center;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    padding-left: 4vw;
+}
+
+.remark-low{
+    width: 100%;
+    height: 72%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+
+.remark-low input{
+    width: 85%;
+    height: 5vw;
+    margin-left: 7vw;
+    outline: none;
+    padding-bottom: 23vw;
+    padding-top: 2vw;
+    border: 1px solid #c3c3c3;
+}
+
+.remark-bottom{
+    width: 85%;
+    height: 10%;
+    /* background-color: yellow; */
+    margin-left: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 2vh;
+}
+
+.remark-bottom button{
+    background: none;
+    padding: 1vh;
+    width: 9vw;
+    border: 1px #c3c3c3 solid;
+    border-radius: 12px;
+}

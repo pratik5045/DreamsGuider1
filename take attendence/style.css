@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+@font-face {
+    font-family: mons;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.student-list{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.student-list-head{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.head-left{
+    width: 10%;
+    height: 100%;
+    /* background-color: crimson */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head-left i{
+    font-size: 6vh;
+}
+ 
+.head-content{
+    width: 20%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fill-circle{
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2vw;
+    width: 2vw;
+    background-color: rgb(212, 178, 245);
+}
+
+.head-content .para{
+    margin-left: 7vw;
+}
+.head-right{
+    width: 30%;
+    height: 100%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-right input{
+    text-align: center;
+    font-size: 1.5vh;
+    padding: 1vh;
+    width: 22vw; 
+    border-radius: 12px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.list-mid{
+    width: 100%;
+    height: 90%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-mid-in{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #c3c3c3;
+}
+
+.mid-container{
+    width: 100%;
+    height: 10%;
+    /* background-color: blue;  */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.mid-common{
+    width: 20%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.present-section p{
+    width: 2vw;
+    height: 2vw;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.absent-section p{
+    width: 2vw;
+    height: 2vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.present-section{
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+}
+.mid-common img{
+    height: 80%;
+    padding-bottom: .5vh;
+}
+
+.mid-low{
+    border: none;
+}
+
+.mid-change{
+    background-color: #d9d9d9;
+}

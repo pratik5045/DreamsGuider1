@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+@font-face {
+    font-family: mons;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+.chat-box{
+    height: 100%;
+    width: 100%;
+}
+
+.arrow-div{
+    height: 10%;
+    width: 100%;
+    /* background-color: red; */
+    padding-left: 2vw;
+}
+
+.arrow-div i{
+    font-size: 10vh;
+}
+
+.chatbox-content{
+    width: 100%;
+    height: 90%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.left-content{
+    width: 40%;
+    height: 100%;
+    /* background-color: crimson; */
+}
+
+.right-content{
+    width: 55%;
+    height: 95%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+}
+
+.search-bar{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+}
+
+.search-bar input{
+    padding: 1vh;
+    width: 80%;
+    margin-top: .5vw;
+    margin-left: 3vw;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    height: 70%;
+}
+
+.staff-list{
+    padding-top: 1vh;
+    width: 80%;
+    height: 85%;
+    margin-left: 3vw;
+    /* background-color: brown; */
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inner-staff-list{
+    width: 85%;
+    height: 10%;
+    /* background-color: aquamarine; */
+    margin-left: 2.5vw;
+    /* border-bottom: 1px solid gray; */
+    display: flex;
+    padding-top: 1vh;
+}
+
+.staff-image{
+    width: 20%;
+    height: 70%;
+    /* background-color: cadetblue; */
+}
+
+.staff-image img{
+    height: 90%;
+    margin-left: 1vw;
+}
+
+.staff-dtl{
+    width: 60%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    /* padding-left: 4vh; */
+    padding-bottom: 1vh 0;
+}
+
+.staff-dtl h5{
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+.staff-dtl p{
+    font-size: 1.5vh;
+    /* margin-left: 2vw; */
+    color: grey;
+    padding-top: .4vw;
+}
+
+.time-dtl{
+    width: 10%;
+    height: 90%;
+    /* background-color: red; */
+    margin-left: 5vw;
+    margin-bottom: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-dtl p{
+    font-size: 1.5vh;
+    color: gray;
+}
+
+.msg-no{
+    color: #fff;
+    margin-top: .7vh;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 30%;
+    background-color: green;
+    border-radius: 50px;
+}
+
+.teacher-prof{
+    height: 10%;
+    width: 100%;
+    /* background-color: red; */
+    border-radius: 12px 12px 0 0;
+    display: flex; 
+    padding: 1vh 0;
+    padding-left: 10vw;
+    position: relative;
+    border-bottom: 2px solid gray;
+}
+
+.image-div{
+    width: fit-content;
+    /* height: fit-content; */
+}
+.teacher{
+    height: 90%;
+}
+
+.circle{
+    position: absolute;
+    width: 1.2%;
+    height: 20%;
+    top: 60%;
+    left: 21.5%;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.activity-status{
+    width: fit-content;
+    margin-left: 2vw;
+    height: fit-content;
+    margin-top: 1vh;
+}
+
+.activity-status p{
+    font-size: 2vh;
+}
+
+.chatbox{
+    width: 100%;
+    height: 85%;
+    /* background-color: crimson; */
+    border-radius: 0 0 12px 12px;
+}
+
+.video-div{
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 2vw;
+}
+
+.video{
+    height: 70%;
+    width: 30%;
+    margin-top: 2vh;
+}
+
+.audio{
+    height: 30%;
+    width: 23%;
+    margin-top: 3vh;
+}
+
+.message-div{
+    width: 100%;
+    height: fit-content;
+    /* background-color: aquamarine; */
+    padding-top: 1.5vw;
+    padding-left: 2vw;
+    margin-top: 1vw;
+}
+
+.message-div p{
+    margin-top: .5vw;
+    font-size: 2vh;
+    padding: 1vw 3vw;
+    width: 41%;
+    height: fit-content;
+    background-image: linear-gradient( 111.5deg,  rgba(163,197,230,1) 1.4%, rgba(148,150,213,1) 39.3%, rgba(159,139,208,1) 68.4%, rgba(159,121,198,1) 89.7%, rgba(157,101,203,1) 99.9% );
+    border-radius: 12px;
+}
+
+.message-type{
+    width: 100%;
+    height: 15%;
+    /* background-color: yellow; */
+    margin-top: 6vw;
+    position: relative;
+    display: flex;
+}
+
+.message-type input{
+    width: 80%;
+    height: 60%;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #E8E8E9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.message-type i{
+    position: absolute;
+    font-size: 3vh;
+}
+
+.emoji{
+    left: 5%;
+    top: 37%;
+}
+
+.attachment{
+   left: 65%;
+   top: 37%;
+}
+
+.money{
+    left: 70%;
+    top: 37%;
+ }
+
+ .camera{
+    left: 75%;
+    top: 37%;
+ }
+
+ .speaker{
+    height: 80%;
+    width: fit-content;
+    /* background-color: aqua; */
+    margin-left: 3.5vw;
+    margin-top: 2vh;
+    padding-bottom: .5vh;
+ }
